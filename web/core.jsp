@@ -34,8 +34,8 @@
     </core:otherwise>
 </core:choose>
 
-<%--<core:import var="data" url="home"/>--%>
-<%--<core:out value="${data}"/>--%>
+<core:import var="data" url="http://google.kz"/>
+<core:out value="${data}"/>
 
 <core:forEach var="i" begin="0" end="5">
     i=<core:out value="${i}"/>
@@ -52,6 +52,6 @@
 <%--<core:import url="${urltest}"/>--%>
 
 <%--<core:redirect url="signin.jsp"/>--%>
-<a href = "<core:url value = "signin.jsp"/>">TEST</a>
+<a href = "<core:url value = "index.jsp"/>">Back</a>
 </body>
 </html>
